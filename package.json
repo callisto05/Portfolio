@@ -1,0 +1,28 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/callisto05/Portfolio.git"
+  },
+  "author": "Prathamesh Bhosale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/callisto05/Portfolio/issues"
+  },
+  "homepage": "https://callisto05.github.io/index",
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  },
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
