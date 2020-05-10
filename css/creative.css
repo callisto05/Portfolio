@@ -18,6 +18,10 @@ body {
 
 }
 
+.text-gold {
+  color: #7b7554;
+}
+
 hr {
   max-width: 50px;
   border-width: 3px;
