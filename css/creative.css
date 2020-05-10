@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Titillium+Web:wght@300;400;600;700&display=swap");
+
+
+
+/* font-family: 'Titillium Web', sans-serif; */
 
 
 body,
@@ -8,7 +14,7 @@ html {
 }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Montserrat', 'Titillium Web', 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 
 
@@ -20,6 +26,28 @@ body {
 
 .text-gold {
   color: #7b7554;
+}
+
+.myfont {
+  font-family:'Montserrat',  'Titillium Web', sans-serif;
+}
+
+.myfontBold{
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+}
+
+.myfontSemiBold{
+  font-family: 'Montserrat', 'Titillium Web', sans-serif;
+  font-weight: 600;
+}
+
+.myfontTi{
+  font-family: 'Titillium Web', sans-serif;
+}
+.copyright-font {
+  font-family: 'Titillium Web','Pacifico', cursive;
+
 }
 
 hr {
@@ -48,16 +76,16 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Titillium Web', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .trend{
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family:'Titillium Web', 'Source Sans Pro', sans-serif;
   font-size: 180% !important;
 }
 .about{
 
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family:'Montserrat', 'Titillium Web', 'Source Sans Pro', sans-serif;
     font-size: 130%;
     color: #7B7554;
 }
@@ -138,7 +166,7 @@ img::-moz-selection {
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family:'Montserrat','Titillium Web', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
@@ -146,12 +174,12 @@ img::-moz-selection {
 #mainNav .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
-  color: #7B7554;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  color: #17183B;
+  font-family: 'Montserrat','Titillium Web', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #7B7554;
+  color: #17183B;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
@@ -205,7 +233,7 @@ img::-moz-selection {
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #7B7554;
+    color: #17183B;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
     color: #7B7554;
@@ -242,6 +270,9 @@ header.masthead p {
 }
 
 @media (min-width: 768px) {
+  footer {
+    padding-top: 1%;
+  }
   header.masthead p {
     font-size: 1.15rem;
   }
@@ -262,6 +293,13 @@ header.masthead p {
 @media (min-width: 1200px) {
   header.masthead h1 {
     font-size: 4rem;
+  }
+}
+
+
+@media(max-width: 500px) {
+  footer {
+    padding-top: 5%;
   }
 }
 
@@ -302,7 +340,7 @@ header.masthead p {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   padding: 0 15px;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family:'Montserrat', 'Titillium Web', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -341,7 +379,7 @@ header.masthead p {
   text-transform: uppercase;
   border: none;
   border-radius: 300px;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family:'Titillium Web','Montserrat','Helvetica Neue', Arial, sans-serif;
 }
 
 .btn-xl {
