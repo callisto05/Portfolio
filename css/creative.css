@@ -86,7 +86,7 @@ h6 {
 .about{
 
     font-family:'Montserrat', 'Titillium Web', 'Source Sans Pro', sans-serif;
-    font-size: 130%;
+    font-size: 120%;
     color: #968b51;
 }
 
@@ -307,6 +307,10 @@ header.masthead p {
 @media(max-width: 500px) {
   footer {
     padding-top: 5%;
+  }
+
+  .about{
+    font-size: 100%;
   }
 }
 
