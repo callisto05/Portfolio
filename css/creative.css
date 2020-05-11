@@ -411,13 +411,18 @@ header.masthead p {
 .get-started {
   color: #fff;
   background-color: #968b51;
-  border-color: #a19a6f;
 }
 
 .get-started:hover, .get-started:focus {
   color: #fff;
   background-color: #666142 !important;
 }
+
+.get-started:active, .get-started:focus{
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(123, 117, 84, 0.5) !important;
+  box-shadow: 0 0 0 0.2rem rgba(123, 117, 84, 0.5) !important;
+}
+
 
 
 .download-now {
@@ -429,6 +434,12 @@ header.masthead p {
 .download-now:hover, .download-now:focus {
   color: #fff;
   background-color: #666142 !important;
+}
+
+
+.download-now:active, .download-now:focus{
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(123, 117, 84, 0.5) !important;
+  box-shadow: 0 0 0 0.2rem rgba(123, 117, 84, 0.5) !important;
 }
 
 
