@@ -67,8 +67,14 @@ a {
 }
 
 a:hover {
-  color: rgb(168, 160, 115);
+  color: #666142;
 }
+
+
+.madeBy:hover {
+  color: #b4ad80;
+}
+
 
 h1,
 h2,
@@ -100,6 +106,9 @@ h6 {
 } */
 
 footer{
+  /* border-style: solid none none none;
+  border-width: 4px;
+  border-color: #968b51; */
   background: #17183B;
   color: aliceblue;
   padding-top: 1%;
